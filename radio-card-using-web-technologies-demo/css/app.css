@@ -1,0 +1,28 @@
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 97.8vh;
+	margin: 0;
+	font-size: 0.9rem;
+	border: 10px solid rgba(0, 0, 0, 0.2);
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
+	font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 0;
+	font-size: 2.6rem;
+	width: 75vw;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Stunning Radio Cards Using HTML, CSS, and JavaScript</title>
+
+    <!-- Custom Cards CSS -->
+    <link rel="stylesheet" href="./css/radio-cards.css">
+    <!-- App CSS -->
+    <link rel="stylesheet" href="./css/app.css">
+
+    <!-- Custom Cards JS -->
+    <script src="./js/radio-cards.js"></script>
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Google Fonts (Optional) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <h1>Create Stunning Radio Cards Using HTML, CSS, and JavaScript</h1>
+        <div id="radio-cards-container">
+            <div class="radio-card radio-card-1" onclick="selectRadioCard('1')">
+                <div class="radio-card-check">
+                    <i class="fa-solid fa-check-circle"></i>
+                </div>
+                <div class="text-center">
+                    <div class="radio-card-icon">
+                        <img src="./images/icon-react.png" alt="React">
+                    </div>
+                    <div class="radio-card-label">
+                        React
+                    </div>
+                    <div class="radio-card-label-description">
+                        Build an application using React.
+                    </div>
+                </div>
+            </div>
+            <div class="radio-card radio-card-2" onclick="selectRadioCard('2')">
+                <div class="radio-card-check">
+                    <i class="fa-solid fa-check-circle"></i>
+                </div>
+                <div class="text-center">
+                    <div class="radio-card-icon">
+                        <img src="./images/icon-angular.png" alt="Angular">
+                    </div>
+                    <div class="radio-card-label">
+                        Angular
+                    </div>
+                    <div class="radio-card-label-description">
+                        Build an application using Angular.
+                    </div>
+                </div>
+            </div>
+            <div class="radio-card radio-card-3" onclick="selectRadioCard('3')">
+                <div class="radio-card-check">
+                    <i class="fa-solid fa-check-circle"></i>
+                </div>
+                <div class="text-center">
+                    <div class="radio-card-icon">
+                        <img src="./images/icon-vue.png" alt="Vue">
+                    </div>
+                    <div class="radio-card-label">
+                        Vue
+                    </div>
+                    <div class="radio-card-label-description">
+                        Build an application using Vue.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
